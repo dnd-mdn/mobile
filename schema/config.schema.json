@@ -7,7 +7,7 @@
         "latest_app_version": {
             "description": "The latest version of the app. Used to determine if a new version is available.",
             "type": "string",
-            "pattern": "^\\d+\\.\\d+\\.\\d+$"
+            "pattern": "^(\\d+\\.)?(\\d+\\.)?(\\*|\\d+)$"
         },
         "apiServer": {
             "description": "The base URL of the API.",

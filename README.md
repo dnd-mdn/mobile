@@ -1,1 +1,1 @@
-# mobile
+# Mobile app resources

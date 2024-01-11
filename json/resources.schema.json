@@ -1,0 +1,119 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "title": "CAF Mobile App resources tab",
+    "description": "Defines groups of web links and contact information for the resources tab.",
+    "type": "object",
+    "properties": {
+        "sections": {
+            "description": "An array of sections to display in the resources tab.",
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "title": {
+                        "description": "Localized title of the section.",
+                        "type": "object",
+                        "properties": {
+                            "en": {
+                                "type": "string"
+                            },
+                            "fr": {
+                                "type": "string"
+                            }
+                        },
+                        "required": [
+                            "en",
+                            "fr"
+                        ]
+                    },
+                    "image": {
+                        "description": "Icon URL of the section.",
+                        "type": "string",
+                        "format": "uri"
+                    },
+                    "description": {
+                        "description": "Localized description of the section. Not used currently.",
+                        "type": "object",
+                        "properties": {
+                            "en": {
+                                "type": "string"
+                            },
+                            "fr": {
+                                "type": "string"
+                            }
+                        },
+                        "required": [
+                            "en",
+                            "fr"
+                        ]
+                    },
+                    "list": {
+                        "description": "An array of links and/or contact information.",
+                        "type": "array",
+                        "items": {
+                            "type": "object",
+                            "properties": {
+                                "title": {
+                                    "description": "Localized title of the entry.",
+                                    "type": "object",
+                                    "properties": {
+                                        "en": {
+                                            "type": "string"
+                                        },
+                                        "fr": {
+                                            "type": "string"
+                                        }
+                                    },
+                                    "required": [
+                                        "en",
+                                        "fr"
+                                    ]
+                                },
+                                "web": {
+                                    "descriptions": "Localized URL.",
+                                    "type": "object",
+                                    "properties": {
+                                        "en": {
+                                            "type": "string",
+                                            "format": "uri"
+                                        },
+                                        "fr": {
+                                            "type": "string",
+                                            "format": "uri"
+                                        }
+                                    },
+                                    "required": [
+                                        "en",
+                                        "fr"
+                                    ]
+                                },
+                                "phone": {
+                                    "description": "Phone number.",
+                                    "type:": "string",
+                                    "pattern": "^[\\d\\-]+$"
+                                },
+                                "email": {
+                                    "description": "Email address.",
+                                    "type": "string",
+                                    "format": "email"
+                                }
+                            },
+                            "required": [
+                                "title"
+                            ]
+                        }
+                    }
+                },
+                "required": [
+                    "title",
+                    "image",
+                    "description",
+                    "list"
+                ]
+            }
+        }
+    },
+    "required": [
+        "sections"
+    ]
+}

@@ -1,4 +1,5 @@
 {
+    "$schema": "../schema/resources.schema.json",
     "sections": [
         {
             "title": {

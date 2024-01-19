@@ -5,121 +5,119 @@
     "type": "object",
     "properties": {
         "latest_app_version": {
-            "description": "The latest version of the app. Used to determine if a new version is available.",
+            "description": "Latest version number. Used by clients to determine if an update is available.",
             "type": "string",
-            "pattern": "^(\\d+\\.)?(\\d+\\.)?(\\*|\\d+)$"
+            "pattern": "^\\d+\\.\\d+\\.\\d+$",
+            "patternErrorMessage": "String does not match the format of \"1.0.0\""
         },
         "apiServer": {
-            "description": "The base URL of the API.",
+            "description": "Alerts API > Base URL of the API.",
             "type": "string",
             "format": "uri"
         },
         "canforgens": {
-            "description": "The base URL of the CANFORGENS API.",
+            "description": "Properties of the CANFORGENS API.",
             "type": "object",
             "properties": {
                 "ip": {
+                    "description": "CANFORGENS API > Base URL of the API.",
                     "type": "string",
                     "format": "uri"
                 }
             },
+            "additionalProperties": false,
             "required": [
                 "ip"
             ]
         },
         "resources": {
-            "description": "The URL of the resources data",
+            "description": "Properties of the Resources API.",
             "type": "object",
             "properties": {
                 "ip": {
+                    "description": "Resources API > URL domain of the Resources JSON file",
                     "type": "string",
                     "format": "uri"
                 },
                 "path": {
+                    "description": "Resources API > URL path of the Resources JSON file",
                     "type": "string",
                     "format": "uri-reference"
                 }
             },
-            "required": [
-                "ip",
-                "path"
-            ]
-        },
-        "subscriptions": {
-            "description": "The URL of the social media account data.  No longer in use.",
-            "type": "object",
-            "properties": {
-                "ip": {
-                    "type": "string",
-                    "format": "uri"
-                },
-                "path": {
-                    "type": "string",
-                    "format": "uri-reference"
-                }
-            },
+            "additionalProperties": false,
             "required": [
                 "ip",
                 "path"
             ]
         },
         "feedbackForm": {
-            "description": "Localized URL of the feedback form.",
+            "description": "Feedback form properties.",
             "type": "object",
             "properties": {
                 "web": {
+                    "description": "Feedback form > Localized URL.",
                     "type": "object",
                     "properties": {
                         "en": {
+                            "description": "Feedback form > English URL.",
                             "type": "string",
                             "format": "uri"
                         },
                         "fr": {
+                            "description": "Feedback form > French URL.",
                             "type": "string",
                             "format": "uri"
                         }
                     },
+                    "additionalProperties": false,
                     "required": [
                         "en",
                         "fr"
                     ]
                 }
             },
+            "additionalProperties": false,
             "required": [
                 "web"
             ]
         },
         "appStore": {
-            "description": "Localized App store URLs.",
+            "description": "App store properties.",
             "type": "object",
             "properties": {
                 "android": {
-                    "descrption": "Android app store URL.",
+                    "description": "App store > Localized Android appstore URL.",
                     "type": "object",
                     "properties": {
                         "en": {
+                            "description": "App store > English Android URL.",
                             "type": "string",
                             "format": "uri"
                         },
                         "fr": {
+                            "description": "App store > French Android URL.",
                             "type": "string",
                             "format": "uri"
                         }
                     },
+                    "additionalProperties": false,
                     "required": [
                         "en",
                         "fr"
                     ]
                 },
                 "ios": {
-                    "descrption": "IOS app store URL.",
+                    "description": "App store > Localized IOS appstore URL.",
                     "type": "object",
                     "properties": {
                         "en": {
+                            "description": "App store > English IOS URL.",
                             "type": "string",
                             "format": "uri"
                         },
                         "fr": {
+                            "description": "App store > French IOS URL.",
                             "type": "string",
                             "format": "uri"
                         }
@@ -130,50 +128,61 @@
                     ]
                 }
             },
+            "additionalProperties": false,
             "required": [
                 "android",
                 "ios"
             ]
         },
         "homeTab": {
-            "description": "The home tab configuration.",
+            "description": "Homepage properties.",
             "type": "object",
             "properties": {
                 "backgroundImages": {
-                    "description": "List of URLs of background images.",
+                    "description": "Homepage > List of background images.",
                     "type": "array",
+                    "minItems": 1,
                     "items": {
+                        "description": "Homepage > Background image properties.",
                         "type": "object",
                         "properties": {
                             "url": {
+                                "description": "Homepage > Background image URL.",
                                 "type": "string",
                                 "format": "uri"
                             }
                         },
+                        "additionalProperties": false,
                         "required": [
                             "url"
                         ]
                     }
                 },
                 "featuredNews": {
-                    "description": "Configure the featured news element.",
+                    "description": "Homepage > Featured news box properties.",
                     "type": "object",
                     "properties": {
                         "published": {
-                            "description": "If false, it will default to displaying the latest news item.",
+                            "description": "Homepage > Enable/Disable using specificied post as featured news item. If false, latest post is displayed.",
                             "type": "boolean"
                         },
                         "size": {
-                            "description": "The grid size of the element. 12 is full width.",
+                            "description": "Homepage > Featured news box size.",
                             "type": "string",
-                            "pattern": "^\\d+$"
+                            "enum": [
+                                "12",
+                                "9",
+                                "6",
+                                "3"
+                            ]
                         },
                         "id": {
-                            "description": "The postID of the post to feature.",
+                            "description": "Homepage > Post ID of the featured news item.",
                             "type": "string",
                             "pattern": "^\\d+$"
                         }
                     },
+                    "additionalProperties": false,
                     "required": [
                         "published",
                         "size",
@@ -181,55 +190,106 @@
                     ]
                 },
                 "alerts": {
-                    "description": "Red high priority buttons on the home tab.",
+                    "description": "Homepage > List of high priority alert buttons.",
                     "type": "array",
                     "items": {
+                        "description": "Homepage > High priority alert button properties.",
                         "type": "object",
                         "properties": {
                             "published": {
-                                "description": "If false, it will not display the button.",
+                                "description": "Homepage > Enable/Disable visibility of the alert button.",
                                 "type": "boolean"
                             },
                             "size": {
-                                "description": "The grid size of the element. 12 is full width.",
+                                "description": "Homepage > Alert button size.",
                                 "type": "string",
-                                "pattern": "^\\d+$"
+                                "enum": [
+                                    "12",
+                                    "9",
+                                    "6",
+                                    "3"
+                                ]
                             },
                             "en": {
+                                "description": "Homepage > Alert button > English properties.",
                                 "type": "object",
                                 "properties": {
                                     "name": {
-                                        "description": "The text of the button.",
+                                        "description": "Homepage > Alert button > English button text.",
                                         "type": "string"
                                     },
                                     "url": {
+                                        "description": "Homepage > Alert button > English button URL.",
                                         "type": "string",
                                         "format": "uri-reference"
+                                    },
+                                    "params": {
+                                        "description": "Homepage > Alert button > Additional parameters.",
+                                        "type": "object",
+                                        "properties": {
+                                            "type": {
+                                                "description": "Homepage > Alert button > Additional parameters > Type of button.",
+                                                "type": "string",
+                                                "enum": [
+                                                    "web"
+                                                ]
+                                            },
+                                            "n": {
+                                                "description": "Homepage > Alert button > Additional parameters > Resources section id.",
+                                                "type": "string",
+                                                "pattern": "^\\d+$"
+                                            }
+                                        },
+                                        "additionalProperties": false
                                     }
                                 },
+                                "additionalProperties": false,
                                 "required": [
                                     "name",
                                     "url"
                                 ]
                             },
                             "fr": {
+                                "description": "Homepage > Alert button > French properties.",
                                 "type": "object",
                                 "properties": {
                                     "name": {
-                                        "description": "The text of the button.",
+                                        "description": "Homepage > Alert button > French button text.",
                                         "type": "string"
                                     },
                                     "url": {
+                                        "description": "Homepage > Alert button > French button URL.",
                                         "type": "string",
                                         "format": "uri-reference"
+                                    },
+                                    "params": {
+                                        "description": "Homepage > Alert button > Additional parameters.",
+                                        "type": "object",
+                                        "properties": {
+                                            "type": {
+                                                "description": "Homepage > Alert button > Additional parameters > Type of button.",
+                                                "type": "string",
+                                                "enum": [
+                                                    "web"
+                                                ]
+                                            },
+                                            "n": {
+                                                "description": "Homepage > Alert button > Additional parameters > Resources section id.",
+                                                "type": "string",
+                                                "pattern": "^\\d+$"
+                                            }
+                                        },
+                                        "additionalProperties": false
                                     }
                                 },
+                                "additionalProperties": false,
                                 "required": [
                                     "name",
                                     "url"
                                 ]
                             }
                         },
+                        "additionalProperties": false,
                         "required": [
                             "published",
                             "size",
@@ -239,55 +299,106 @@
                     }
                 },
                 "buttons": {
-                    "description": "Buttons for the home tab.",
+                    "description": "Homepage > List of regular priority buttons.",
                     "type": "array",
                     "items": {
+                        "description": "Homepage > Button properties.",
                         "type": "object",
                         "properties": {
                             "published": {
-                                "description": "If false, it will not display the button.",
+                                "description": "Homepage > Enable/Disable visibility of the button.",
                                 "type": "boolean"
                             },
                             "size": {
-                                "description": "The grid size of the element. 12 is full width.",
+                                "description": "Homepage > Button size.",
                                 "type": "string",
-                                "pattern": "^\\d+$"
+                                "enum": [
+                                    "12",
+                                    "9",
+                                    "6",
+                                    "3"
+                                ]
                             },
                             "en": {
+                                "description": "Homepage > Button > English properties.",
                                 "type": "object",
                                 "properties": {
                                     "name": {
-                                        "description": "The text of the button.",
+                                        "description": "Homepage > Button > English button text.",
                                         "type": "string"
                                     },
                                     "url": {
+                                        "description": "Homepage > Button > English button URL.",
                                         "type": "string",
                                         "format": "uri-reference"
+                                    },
+                                    "params": {
+                                        "description": "Homepage > Button > Additional parameters.",
+                                        "type": "object",
+                                        "properties": {
+                                            "type": {
+                                                "description": "Homepage > Button > Additional parameters > Type of button.",
+                                                "type": "string",
+                                                "enum": [
+                                                    "web"
+                                                ]
+                                            },
+                                            "n": {
+                                                "description": "Homepage > Button > Additional parameters > Resources section id.",
+                                                "type": "string",
+                                                "pattern": "^\\d+$"
+                                            }
+                                        },
+                                        "additionalProperties": false
                                     }
                                 },
+                                "additionalProperties": false,
                                 "required": [
                                     "name",
                                     "url"
                                 ]
                             },
                             "fr": {
+                                "description": "Homepage > Button > French properties.",
                                 "type": "object",
                                 "properties": {
                                     "name": {
-                                        "description": "The text of the button.",
+                                        "description": "Homepage > Button > French button text.",
                                         "type": "string"
                                     },
                                     "url": {
+                                        "description": "Homepage > Button > French button URL.",
                                         "type": "string",
                                         "format": "uri-reference"
+                                    },
+                                    "params": {
+                                        "description": "Homepage > Button > Additional parameters.",
+                                        "type": "object",
+                                        "properties": {
+                                            "type": {
+                                                "description": "Homepage > Button > Additional parameters > Type of button.",
+                                                "type": "string",
+                                                "enum": [
+                                                    "web"
+                                                ]
+                                            },
+                                            "n": {
+                                                "description": "Homepage > Button > Additional parameters > Resources section id.",
+                                                "type": "string",
+                                                "pattern": "^\\d+$"
+                                            }
+                                        },
+                                        "additionalProperties": false
                                     }
                                 },
+                                "additionalProperties": false,
                                 "required": [
                                     "name",
                                     "url"
                                 ]
                             }
                         },
+                        "additionalProperties": false,
                         "required": [
                             "published",
                             "size",
@@ -297,6 +408,7 @@
                     }
                 }
             },
+            "additionalProperties": false,
             "required": [
                 "backgroundImages",
                 "featuredNews",
@@ -305,12 +417,12 @@
             ]
         }
     },
+    "additionalProperties": false,
     "required": [
         "latest_app_version",
         "apiServer",
         "canforgens",
         "resources",
-        "subscriptions",
         "feedbackForm",
         "appStore",
         "homeTab"

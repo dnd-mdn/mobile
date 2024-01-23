@@ -4,11 +4,16 @@
     "description": "Defines API and asset locations as well as the home tab configuration.",
     "type": "object",
     "properties": {
+        "$schema": {
+            "description": "URL of the JSON schema used for validation.",
+            "type": "string",
+            "format": "uri"
+        },
         "latest_app_version": {
             "description": "Latest version number. Used by clients to determine if an update is available.",
             "type": "string",
             "pattern": "^\\d+\\.\\d+\\.\\d+$",
-            "patternErrorMessage": "String does not match the format of \"1.0.0\""
+            "patternErrorMessage": "String does not match the format of \"1.0.0\"."
         },
         "apiServer": {
             "description": "Alerts API > Base URL of the API.",
@@ -419,6 +424,7 @@
     },
     "additionalProperties": false,
     "required": [
+        "$schema",
         "latest_app_version",
         "apiServer",
         "canforgens",

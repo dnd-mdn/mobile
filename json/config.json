@@ -1,5 +1,5 @@
 {
-    "$schema": "../schema/config.schema.json",
+    "$schema": "https://cdn.jsdelivr.net/gh/dnd-mdn/mobile@latest/schema/config.schema.json",
     "latest_app_version": "3.2.0",
     "apiServer": "https://mobile.caf-fac.ca/api/v4",
     "canforgens": {
@@ -8,10 +8,6 @@
     "resources": {
         "ip": "https://www.canada.ca",
         "path": "/content/dam/dnd-mdn/documents/json/mobile/resources.json"
-    },
-    "subscriptions": {
-        "ip": "https://www.canada.ca",
-        "path": "/content/dam/dnd-mdn/documents/json/mobile/caf-subscriptions.json"
     },
     "feedbackForm": {
         "web": {

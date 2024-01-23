@@ -1,5 +1,5 @@
 {
-    "$schema": "https://cdn.jsdelivr.net/gh/dnd-mdn/mobile@latest/schema/config.schema.json",
+    "$schema": "https://cdn.jsdelivr.net/gh/dnd-mdn/mobile/schema/config.schema.json",
     "latest_app_version": "3.2.0",
     "apiServer": "https://mobile.caf-fac.ca/api/v4",
     "canforgens": {

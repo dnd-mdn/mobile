@@ -16,13 +16,15 @@
                 "type": "object",
                 "properties": {
                     "title": {
-                        "description": "Localized title of the section.",
+                        "description": "Section > Localized title text.",
                         "type": "object",
                         "properties": {
                             "en": {
+                                "description": "Section > English title.",
                                 "type": "string"
                             },
                             "fr": {
+                                "description": "Section > French title.",
                                 "type": "string"
                             }
                         },
@@ -33,18 +35,20 @@
                         ]
                     },
                     "image": {
-                        "description": "Icon URL of the section.",
+                        "description": "Section > URL of the icon image.",
                         "type": "string",
                         "format": "uri"
                     },
                     "description": {
-                        "description": "Localized description of the section. Not used currently.",
+                        "description": "Section > Localized description text.",
                         "type": "object",
                         "properties": {
                             "en": {
+                                "description": "Section > English description.",
                                 "type": "string"
                             },
                             "fr": {
+                                "description": "Section > French description.",
                                 "type": "string"
                             }
                         },
@@ -55,19 +59,21 @@
                         ]
                     },
                     "list": {
-                        "description": "An array of links and/or contact information.",
+                        "description": "Section > List of links and/or contact information.",
                         "type": "array",
                         "items": {
                             "type": "object",
                             "properties": {
                                 "title": {
-                                    "description": "Localized title of the entry.",
+                                    "description": "Section > Entry > Localized title.",
                                     "type": "object",
                                     "properties": {
                                         "en": {
+                                            "description": "Section > Entry > English title.",
                                             "type": "string"
                                         },
                                         "fr": {
+                                            "description": "Section > Entry > French title.",
                                             "type": "string"
                                         }
                                     },
@@ -78,14 +84,16 @@
                                     ]
                                 },
                                 "web": {
-                                    "descriptions": "Localized URL.",
+                                    "description": "Section > Entry > Localized URL.",
                                     "type": "object",
                                     "properties": {
                                         "en": {
+                                            "description": "Section > Entry > English URL.",
                                             "type": "string",
                                             "format": "uri"
                                         },
                                         "fr": {
+                                            "description": "Section > Entry > French URL.",
                                             "type": "string",
                                             "format": "uri"
                                         }
@@ -97,12 +105,12 @@
                                     ]
                                 },
                                 "phone": {
-                                    "description": "Phone number.",
+                                    "description": "Section > Entry > Phone number.",
                                     "type:": "string",
-                                    "pattern": "^[\\d\\-]+$"
+                                    "pattern": "^[\\d\\-\\+]+$"
                                 },
                                 "email": {
-                                    "description": "Email address.",
+                                    "description": "Section > Entry > Email address.",
                                     "type": "string",
                                     "format": "email"
                                 }

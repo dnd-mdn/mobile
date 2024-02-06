@@ -957,6 +957,16 @@
                         "en": "https://www.canada.ca/en/department-national-defence/services/benefits-military/education-training/establishments/language-school.html",
                         "fr": "https://www.canada.ca/fr/ministere-defense-nationale/services/avantages-militaires/education-formation/etablissements/ecole-langues.html"
                     }
+                },
+                {
+                    "title": {
+                        "en": "CDS &amp; CAF CWO Professional Reading List",
+                        "fr": "Liste de lecture professionnelles du Chef d’état-major de la Défense et de l’Adjudant-Chef des Forces armées canadiennes"
+                    },
+                    "web": {
+                        "en": "https://www.canada.ca/en/department-national-defence/corporate/organizational-structure/chief-defence-staff/cds-caf-cwo-professional-reading-list.html",
+                        "fr": "https://www.canada.ca/fr/ministere-defense-nationale/organisation/structure-organisationnelle/chef-etat-major-defense/liste-de-lectures-professionnelles-cemd-adjuc-fac.html"
+                    }
                 }
             ]
         },
@@ -1424,6 +1434,16 @@
                     "web": {
                         "en": "https://www.canada.ca/en/department-national-defence/services/benefits-military/transition/release.html",
                         "fr": "https://www.canada.ca/fr/ministere-defense-nationale/services/avantages-militaires/transition/liberation.html"
+                    }
+                },
+                {
+                    "title": {
+                        "en": "The Army Reserve in Canada",
+                        "fr": "La reserve de l’Armée au Canada"
+                    },
+                    "web": {
+                        "en": "https://www.canada.ca/content/dam/dnd-mdn/army/lineofsight/articleimages/2023/08/R-PM-007-000-AF-001.pdf",
+                        "fr": "https://www.canada.ca/content/dam/dnd-mdn/army/lineofsight/files/articlefiles/fr/RPM007000AF002_FR.pdf"
                     }
                 }
             ]

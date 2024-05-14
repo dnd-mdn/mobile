@@ -180,8 +180,8 @@
             "list": [
                 {
                     "title": {
-                        "en": "Pay rates",
-                        "fr": "Taux de solde"
+                        "en": "Military Pay",
+                        "fr": "Solde militaire"
                     },
                     "web": {
                         "en": "https://www.canada.ca/en/department-national-defence/services/benefits-military/pay-pension-benefits/pay.html",
@@ -200,8 +200,8 @@
                 },
                 {
                     "title": {
-                        "en": "Pensions",
-                        "fr": "Pensions"
+                        "en": "CAF Pensions",
+                        "fr": "Pensions des FAC"
                     },
                     "web": {
                         "en": "https://www.tpsgc-pwgsc.gc.ca/fac-caf/accueil-home-eng.html",
@@ -226,69 +226,6 @@
                     "web": {
                         "en": "https://www.canada.ca/en/department-national-defence/corporate/policies-standards/compensation-benefits-instructions.html",
                         "fr": "https://www.canada.ca/fr/ministere-defense-nationale/organisation/politiques-normes/remunerations-avantages-sociaux.html"
-                    }
-                }
-            ]
-        },
-        {
-            "title": {
-                "en": "COVID-19",
-                "fr": "COVID-19"
-            },
-            "image": "https://www.canada.ca/content/dam/dnd-mdn/images/mobile-app/v2/alert.png",
-            "description": {
-                "en": "Information & resources for military & civilian members of the Defence Team ",
-                "fr": "Informations et ressources à l’intention des civils et militaires de l’Équipe de la Défense "
-            },
-            "list": [
-                {
-                    "title": {
-                        "en": "Defence Team – COVID-19",
-                        "fr": "Équipe de la Défense – COVID-19"
-                    },
-                    "web": {
-                        "en": "https://www.canada.ca/en/department-national-defence/campaigns/covid-19.html?utm_source=resources&utm_medium=caf-mobile-app&utm_campaign=covid",
-                        "fr": "https://www.canada.ca/fr/ministere-defense-nationale/campagnes/covid-19.html?utm_source=resources&utm_medium=caf-mobile-app&utm_campaign=covid"
-                    }
-                },
-                {
-                    "title": {
-                        "en": "COVID-19 vaccines for Defence Team members",
-                        "fr": "Vaccination des membres de l’Équipe de la Défense contre la COVID-19"
-                    },
-                    "web": {
-                        "en": "https://www.canada.ca/en/department-national-defence/campaigns/covid-19/covid-19-vaccines-for-canadian-armed-forces-members.html?utm_source=resources&utm_medium=caf-mobile-app&utm_campaign=covid",
-                        "fr": "https://www.canada.ca/fr/ministere-defense-nationale/campagnes/covid-19/vaccination-des-membres-des-fac-contre-la-covid-19.html?utm_source=resources&utm_medium=caf-mobile-app&utm_campaign=covid"
-                    }
-                },
-                {
-                    "title": {
-                        "en": "Government of Canada - COVID-19",
-                        "fr": "Gouvernement du Canada – COVID-19"
-                    },
-                    "web": {
-                        "en": "https://www.canada.ca/en/public-health/services/diseases/coronavirus-disease-covid-19.html",
-                        "fr": "https://www.canada.ca/fr/sante-publique/services/maladies/maladie-coronavirus-covid-19.html"
-                    }
-                },
-                {
-                    "title": {
-                        "en": "CDS/DM Directive on DND/CAF Operating and Reconstituting in a Persistent COVID-19 Environment",
-                        "fr": "Directive du CEMD/SM sur le fonctionnement et la reconstitution du MDN/des FAC dans un environnement COVID-19 persistant"
-                    },
-                    "web": {
-                        "en": "https://www.canada.ca/en/department-national-defence/corporate/policies-standards/dm-cds-directives/cds-dm-directive-dnd-caf-operating-reconstituting-persistent-covid-19-ennvironment.html?utm_source=resources&utm_medium=caf-mobile-app&utm_campaign=covid",
-                        "fr": "https://www.canada.ca/fr/ministere-defense-nationale/organisation/politiques-normes/directives-sm-cemd/directive-cemd-sm-fonctionnement-reconstitution-mdn-fac-environnement-covid-19-persistant.html?utm_source=resources&utm_medium=caf-mobile-app&utm_campaign=covid"
-                    }
-                },
-                {
-                    "title": {
-                        "en": "COVID-19 Symptom Self-Assessment Tool",
-                        "fr": "Outil d'auto-évaluation des symptômes COVID-19"
-                    },
-                    "web": {
-                        "en": "https://ca.thrive.health/covid19/en",
-                        "fr": "https://ca.thrive.health/covid19/fr"
                     }
                 }
             ]
@@ -416,12 +353,22 @@
                 },
                 {
                     "title": {
-                        "en": "CANEX Discounts",
-                        "fr": "Rabais de CANEX"
+                        "en": "CFMWS",
+                        "fr": "SBMFC"
                     },
                     "web": {
-                        "en": "https://www.cfmws.com/en/AboutUs/CANEX/Pages/default.aspx",
-                        "fr": "https://www.cfmws.com/fr/aboutus/canex/pages/default.aspx"
+                        "en": "https://cfmws.ca",
+                        "fr": "https://sbmfc.ca"
+                    }
+                },
+                {
+                    "title": {
+                        "en": "Grievances in the Canadian Armed Forces",
+                        "fr": "Griefs dans les Forces armées canadiennes"
+                    },
+                    "web": {
+                        "en": "https://www.canada.ca/en/department-national-defence/services/benefits-military/conflict-misconduct/conflict-harassment/grievances.html",
+                        "fr": "https://www.canada.ca/fr/ministere-defense-nationale/services/avantages-militaires/conflits-inconduite/conflits-harcelement/griefs.html"
                     }
                 }
             ]
@@ -459,12 +406,12 @@
                 },
                 {
                     "title": {
-                        "en": "Talk to a recruiter",
-                        "fr": "Parlez à un recruteur"
+                        "en": "Find a recruiting centre",
+                        "fr": "Trouvez un centre de recrutement"
                     },
                     "web": {
-                        "en": "https://forces.ca/en/talk-to-a-recruiter/",
-                        "fr": "https://forces.ca/fr/parlez-a-un-recruteur/"
+                        "en": "https://forces.ca/en/find-a-recruiting-centre/#/",
+                        "fr": "https://forces.ca/fr/trouvez-un-centre-de-recrutement/#/"
                     }
                 },
                 {
@@ -575,8 +522,8 @@
                 },
                 {
                     "title": {
-                        "en": "Heritage manual",
-                        "fr": "Manuel sur le patrimoine"
+                        "en": "The Heritage Structure of the Canadian Forces",
+                        "fr": "La structure du patrimoine des Forces canadiennes"
                     },
                     "web": {
                         "en": "https://www.canada.ca/en/services/defence/caf/military-identity-system/heritage-manual.html",
@@ -605,8 +552,8 @@
                 },
                 {
                     "title": {
-                        "en": "Colours",
-                        "fr": "Drapeaux consacrés"
+                        "en": "Gallery of Canadian Forces guidons, colours and standards",
+                        "fr": "Galerie des Guidons, drapeaux consacrés et étendards des Forces canadiennes"
                     },
                     "web": {
                         "en": "https://www.canada.ca/en/services/defence/caf/military-identity-system/guidons-colours-standards-gallery.html",
@@ -1017,18 +964,8 @@
                         "fr": "Prestations d'invalidité"
                     },
                     "web": {
-                        "en": "https://www.veterans.gc.ca/eng/services/after-injury/disability-benefits",
-                        "fr": "https://www.veterans.gc.ca/fra/services/after-injury/prestations-invalidite"
-                    }
-                },
-                {
-                    "title": {
-                        "en": "Veteran's Affairs Canada",
-                        "fr": "Anciens Combattants Canada"
-                    },
-                    "web": {
-                        "en": "https://www.veterans.gc.ca/eng",
-                        "fr": "https://www.veterans.gc.ca/fra"
+                        "en": "https://veterans.gc.ca/en/mental-and-physical-health/physical-health-and-wellness/compensation-illness-or-injury/disability-benefits",
+                        "fr": "https://veterans.gc.ca/fr/sante-mentale-et-physique/sante-physique-et-bien-etre/indemnite-en-cas-de-maladie-ou-de-blessure/prestations-dinvalidite"
                     }
                 },
                 {
@@ -1039,46 +976,6 @@
                     "web": {
                         "en": "https://www.veterans.gc.ca/eng/services/rates",
                         "fr": "https://www.veterans.gc.ca/fra/services/rates"
-                    }
-                },
-                {
-                    "title": {
-                        "en": "Veterans Matter mobile app",
-                        "fr": "Les vétérans le méritent - Application mobile"
-                    },
-                    "web": {
-                        "en": "https://www.veterans.gc.ca/eng/resources/stay-connected/mobile-app/veterans-matter",
-                        "fr": "https://www.veterans.gc.ca/fra/resources/stay-connected/mobile-app/veterans-matter"
-                    }
-                },
-                {
-                    "title": {
-                        "en": "PTSD Coach Canada",
-                        "fr": "Coach ESPT Canada"
-                    },
-                    "web": {
-                        "en": "https://www.veterans.gc.ca/eng/resources/stay-connected/mobile-app/ptsd-coach-canada",
-                        "fr": "https://www.veterans.gc.ca/fra/resources/stay-connected/mobile-app/ptsd-coach-canada"
-                    }
-                },
-                {
-                    "title": {
-                        "en": "My Transition Services (iOS - mobile app)",
-                        "fr": "Mes Services de Transition (Aplication mobile - iOS)"
-                    },
-                    "web": {
-                        "en": "https://apps.apple.com/ca/app/my-transition-services/id1439355659",
-                        "fr": "https://apps.apple.com/ca/app/my-transition-services/id1439355659"
-                    }
-                },
-                {
-                    "title": {
-                        "en": "My Transition Services (Google Play - mobile app)",
-                        "fr": "Mes Services de Transition (Aplication mobile - Google Play)"
-                    },
-                    "web": {
-                        "en": "https://play.google.com/store/apps/details?id=ca.forces.transition&hl=en_CA",
-                        "fr": "https://play.google.com/store/apps/details?id=ca.forces.transition&hl=fr_CA"
                     }
                 }
             ]
@@ -1127,11 +1024,11 @@
                 {
                     "title": {
                         "en": "Air Force wings & squadrons",
-                        "fr": "Ailes et escadrons de la Force aérienne"
+                        "fr": "Escadres et escadrons de la Force aérienne"
                     },
                     "web": {
-                        "en": "http://www.rcaf-arc.forces.gc.ca/en/wings-squadrons.page",
-                        "fr": "http://www.rcaf-arc.forces.gc.ca/fr/escadres-escadrons.page"
+                        "en": "https://www.canada.ca/en/air-force/corporate/wings-squadrons.html",
+                        "fr": "https://www.canada.ca/fr/force-aerienne/organisation/escadres-escadrons.html"
                     }
                 },
                 {
@@ -1238,6 +1135,46 @@
                     "web": {
                         "en": "https://www.canada.ca/en/department-national-defence/maple-leaf.html",
                         "fr": "https://www.canada.ca/fr/ministere-defense-nationale/feuille-derable.html"
+                    }
+                },
+                {
+                    "title": {
+                        "en": "Royal Canadian Navy News",
+                        "fr": "Nouvelles de la Marine"
+                    },
+                    "web": {
+                        "en": "https://www.canada.ca/en/navy/corporate/navy-news.html",
+                        "fr": "https://www.canada.ca/fr/marine/organisation/nouvelles-marine.html"
+                    }
+                },
+                {
+                    "title": {
+                        "en": "Canadian Army News",
+                        "fr": "Nouvelles de l'Armée canadienne"
+                    },
+                    "web": {
+                        "en": "https://www.canada.ca/en/army/news-publications/browse.html",
+                        "fr": "https://www.canada.ca/fr/armee/nouvelles-publications/parcourir.html"
+                    }
+                },
+                {
+                    "title": {
+                        "en": "Royal Canadian Air Force News",
+                        "fr": "Nouvelles de l'Aviation royale canadienne"
+                    },
+                    "web": {
+                        "en": "https://www.canada.ca/en/air-force/articles.html",
+                        "fr": "https://www.canada.ca/fr/force-aerienne/articles.html"
+                    }
+                },
+                {
+                    "title": {
+                        "en": "Defence Research Development Canada News",
+                        "fr": "Nouvelles de Recherche et développement pour la défense Canada"
+                    },
+                    "web": {
+                        "en": "https://www.canada.ca/en/defence-research-development/news/articles.html",
+                        "fr": "https://www.canada.ca/fr/recherche-developpement-defense/nouvelles/articles.html"
                     }
                 }
             ]
@@ -1362,6 +1299,16 @@
                         "en": "https://www.canada.ca/en/department-national-defence/services/benefits-military/conflict-misconduct/operation-honour.html",
                         "fr": "https://www.canada.ca/fr/ministere-defense-nationale/services/avantages-militaires/conflits-inconduite/operation-honour.html"
                     }
+                },
+                {
+                    "title": {
+                        "en": "Canada life",
+                        "fr": "Canada-Vie"
+                    },
+                    "web": {
+                        "en": "https://www.canadalife.com",
+                        "fr": "https://www.canadalife.com/fr.html"
+                    }
                 }
             ]
         },
@@ -1408,8 +1355,8 @@
                 },
                 {
                     "title": {
-                        "en": "Programs and Tools for Employers of Reservists",
-                        "fr": "Programmes et outils pour les employeurs de réservistes"
+                        "en": "Supporting Reservists",
+                        "fr": "Soutenir les réservistes"
                     },
                     "web": {
                         "en": "https://www.canada.ca/en/department-national-defence/services/canada-reserve-force/supporting-reservists.html",
@@ -1438,12 +1385,12 @@
                 },
                 {
                     "title": {
-                        "en": "The Army Reserve in Canada",
-                        "fr": "La reserve de l’Armée au Canada"
+                        "en": "About the Reserve Force",
+                        "fr": "À propos de la Force de réserve"
                     },
                     "web": {
-                        "en": "https://www.canada.ca/content/dam/dnd-mdn/army/lineofsight/articleimages/2023/08/R-PM-007-000-AF-001.pdf",
-                        "fr": "https://www.canada.ca/content/dam/dnd-mdn/army/lineofsight/files/articlefiles/fr/RPM007000AF002_FR.pdf"
+                        "en": "https://www.canada.ca/en/department-national-defence/services/canada-reserve-force/about-reserve-force.html",
+                        "fr": "https://www.canada.ca/fr/ministere-defense-nationale/services/force-reserve-canada/propos-force-reserve.html"
                     }
                 }
             ]
@@ -1537,6 +1484,46 @@
                     "web": {
                         "en": "https://play.google.com/store/apps/details?id=ca.drdc.rddc.r2mr",
                         "fr": "https://play.google.com/store/apps/details?id=ca.drdc.rddc.r2mr&hl=fr"
+                    }
+                },
+                {
+                    "title": {
+                        "en": "PTSD Coach Canada (iOS - mobile app)",
+                        "fr": "Coach ESPT Canada (Aplication mobile - iOS)"
+                    },
+                    "web": {
+                        "en": "https://apps.apple.com/ca/app/ptsd-coach-canada/id616851357",
+                        "fr": "https://apps.apple.com/fr/app/coach-espt-canada/id616851357"
+                    }
+                },
+                {
+                    "title": {
+                        "en": "PTSD Coach Canada (Google Play/Android)",
+                        "fr": "Coach ESPT Canada (Aplication mobile - Google Play)"
+                    },
+                    "web": {
+                        "en": "https://play.google.com/store/apps/details?id=ca.gc.veterans.ptsd.ptsdcoach&hl=en_US",
+                        "fr": "https://play.google.com/store/apps/details?id=ca.gc.veterans.ptsd.ptsdcoach&hl=fr_ca"
+                    }
+                },
+                {
+                    "title": {
+                        "en": "My Transition Services (iOS - mobile app)",
+                        "fr": "Mes Services de Transition (Aplication mobile - iOS)"
+                    },
+                    "web": {
+                        "en": "https://apps.apple.com/ca/app/my-transition-services/id1439355659",
+                        "fr": "https://apps.apple.com/fr/app/mes-services-de-transition/id1439355659"
+                    }
+                },
+                {
+                    "title": {
+                        "en": "My Transition Services (Google Play - mobile app)",
+                        "fr": "Mes Services de Transition (Aplication mobile - Google Play)"
+                    },
+                    "web": {
+                        "en": "https://play.google.com/store/apps/details?id=ca.forces.transition&hl=en_CA",
+                        "fr": "https://play.google.com/store/apps/details?id=ca.forces.transition&hl=fr_CA"
                     }
                 }
             ]
@@ -1675,11 +1662,7 @@
                         "en": "24/7 Family Information Line",
                         "fr": "24/7 Ligne d’information pour les familles"
                     },
-                    "phone": "1-800-866-4546",
-                    "web": {
-                        "en": "https://www.cafconnection.ca",
-                        "fr": "https://www.connexionfac.ca/Nationale/Accueil.aspx"
-                    }
+                    "phone": "1-800-866-4546"
                 },
                 {
                     "title": {

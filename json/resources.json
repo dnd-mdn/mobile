@@ -1,5 +1,5 @@
 {
-    "$schema": "https://cdn.jsdelivr.net/gh/dnd-mdn/mobile/schema/resources.schema.json",
+	"$schema": "https://cdn.jsdelivr.net/gh/dnd-mdn/mobile/schema/resources.schema.json",
 	"sections": [
 		{
 			"title": {
@@ -967,8 +967,7 @@
 						"en": "https://www.canada.ca/en/department-national-defence/corporate/organizational-structure/chief-defence-staff/cds-caf-cwo-professional-reading-list.html",
 						"fr": "https://www.canada.ca/fr/ministere-defense-nationale/organisation/structure-organisationnelle/chef-etat-major-defense/liste-de-lectures-professionnelles-cemd-adjuc-fac.html"
 					}
-				}			
-				
+				}
 			]
 		},
 		{
@@ -1635,7 +1634,6 @@
 						"en": "https://www.canada.ca/en/department-national-defence/services/contact-us.html",
 						"fr": "https://www.canada.ca/fr/ministere-defense-nationale/services/contactez-nous.html"
 					}
-
 				},
 				{
 					"title": {

@@ -1505,26 +1505,6 @@
                         "en": "https://play.google.com/store/apps/details?id=ca.gc.veterans.ptsd.ptsdcoach&hl=en_US",
                         "fr": "https://play.google.com/store/apps/details?id=ca.gc.veterans.ptsd.ptsdcoach&hl=fr_ca"
                     }
-                },
-                {
-                    "title": {
-                        "en": "My Transition Services (iOS - mobile app)",
-                        "fr": "Mes Services de Transition (Aplication mobile - iOS)"
-                    },
-                    "web": {
-                        "en": "https://apps.apple.com/ca/app/my-transition-services/id1439355659",
-                        "fr": "https://apps.apple.com/fr/app/mes-services-de-transition/id1439355659"
-                    }
-                },
-                {
-                    "title": {
-                        "en": "My Transition Services (Google Play - mobile app)",
-                        "fr": "Mes Services de Transition (Aplication mobile - Google Play)"
-                    },
-                    "web": {
-                        "en": "https://play.google.com/store/apps/details?id=ca.forces.transition&hl=en_CA",
-                        "fr": "https://play.google.com/store/apps/details?id=ca.forces.transition&hl=fr_CA"
-                    }
                 }
             ]
         },

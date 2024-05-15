@@ -76,14 +76,14 @@
                     "name": "Contact us",
                     "url": "/resource-detail",
                     "params": {
-                        "n": "21"
+                        "n": "20"
                     }
                 },
                 "fr": {
                     "name": "Contactez-nous",
                     "url": "/resource-detail",
                     "params": {
-                        "n": "21"
+                        "n": "20"
                     }
                 }
             },

@@ -1,6 +1,6 @@
 {
     "$schema": "https://cdn.jsdelivr.net/gh/dnd-mdn/mobile/schema/config.schema.json",
-    "latest_app_version": "3.2.0",
+    "latest_app_version": "3.2.1",
     "apiServer": "https://mobile2.caf-fac.ca/api/v4",
     "canforgens": {
         "ip": "https://mobile2.caf-fac.ca"

@@ -652,6 +652,16 @@
                         "en": "https://www.canada.ca/en/department-national-defence/services/benefits-military/voting-and-elections.html",
                         "fr": "https://www.canada.ca/fr/ministere-defense-nationale/services/avantages-militaires/votes-et-elections.html"
                     }
+                },
+                {
+                    "title": {
+                        "en": "Hybrid Work Model",
+                        "fr": "Modèle de travail hybride"
+                    },
+                    "web": {
+                        "en": "https://www.canada.ca/en/department-national-defence/services/hybrid-work-model.html",
+                        "fr": "https://www.canada.ca/fr/ministere-defense-nationale/campagnes/modele-de-travail-hybride.html"
+                    }
                 }
             ]
         },

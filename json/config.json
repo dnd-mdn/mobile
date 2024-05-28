@@ -11,8 +11,8 @@
     },
     "feedbackForm": {
         "web": {
-            "en": "https://apps.forces.gc.ca/en/mobile/feedback.asp",
-            "fr": "https://apps.forces.gc.ca/fr/mobile/retroaction.asp"
+            "en": "https://apps.forces.gc.ca/en/mobile/feedback.asp?appName=CAF",
+            "fr": "https://apps.forces.gc.ca/fr/mobile/retroaction.asp?appName=CAF"
         }
     },
     "appStore": {
